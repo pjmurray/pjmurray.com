@@ -8,6 +8,13 @@ import Footer from "../components/footer"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 
+const Newsletter = () => (
+  <div className="has-text-centered" style={{marginTop: '100px'}}>
+    <h2 className='title is-5'> Please subscribe to my newsletter</h2>
+    <iframe src="https://pjmurray.substack.com/embed" width="100%" height="320" style={{border:'1px solid #EEE', background :'white'}} frameborder="0" scrolling="no"></iframe>
+  </div>
+)
+
 const IndexPage = () => {
   const [scrolled, setScrolled] = useState(false)
   function handleScroll () {
@@ -29,10 +36,7 @@ const IndexPage = () => {
               <p> Please come back later.</p>
               <p> - PJ</p>
             </div>
-            <div className="box has-text-centered" style={{marginTop: '100px'}}>
-            <h2 className='title is-5'> Please subscribe to my newsletter</h2>
-            <iframe src="https://pjmurray.substack.com/embed" width="100%" height="320" style={{border:'1px solid #EEE', background :'white'}} frameborder="0" scrolling="no"></iframe>
-            </div>
+            <Newsletter/>
           </div>
           </div>
           </div>
