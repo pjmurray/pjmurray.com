@@ -34,6 +34,7 @@ const IndexPage = () => {
               <p> Hi there,</p>
               <p> This is currently a work in progress</p>
               <p> Please come back later.</p>
+              <p> You can email me on: pj.murray.nz@gmail.com</p>
               <p> - PJ</p>
             </div>
             <Newsletter/>
