@@ -1,3 +1,20 @@
+/*footer { 
+background-color: black;
+position: fixed;
+bottom:0;
+left: 0;
+right: 0;
+height: 20px;
+}
+.sidebar {
+  border-right: 2px solid black;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+.sidebar li {
+  padding-bottom: 10px;
+}
+
 /*html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -620,4 +637,4 @@ pre tt:after {
     font-size: 100%;
   }
 }
-*/
+*/*/

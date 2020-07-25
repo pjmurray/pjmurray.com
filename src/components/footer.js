@@ -1,9 +1,9 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
+// import { Link } from "gatsby"
+// import PropTypes from "prop-types"
 import React from "react"
 
 const Footer = () => (
-  <footer classsName="footer has-text-centered container">
+  <footer className="footer has-text-centered container">
     <div className="columns">
       <div className="column">
       </div>
