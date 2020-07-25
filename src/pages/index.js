@@ -31,7 +31,7 @@ const IndexPage = () => {
 
   return (
     <Fragment>
-      <SEO />
+      <SEO title="PJ Murray | Software Engineer & Startup Guy" />
       <main className="font-mono" onScroll={handleScroll}>
           <div className="container mx-auto">
           <div className="md:mt-32 mt-20">
@@ -39,22 +39,22 @@ const IndexPage = () => {
 
             </div>
             <div className="xs:w-full md:flex justify-center xs:relative">
-              <div class='text-right md:mr-6 max-w-lg px-4'>
-                <h1 className="mb-8">👋 Hey there, <br class="md:hidden"/>it's PJ Murray.</h1>
+              <div className='text-right md:mr-6 max-w-lg px-4'>
+                <h1 className="mb-8"><span role="img">👋</span> Hey there, <br className="md:hidden"/>it's PJ Murray.</h1>
                 <div className="leading-loose">
-                  <p className="mb-4">I'm a customer centric, <br class="md:hidden"/> full-stack engineer<br/>who works with early stage startups<br/>to ship mission critical projects.</p>
-                  <p className="mb-6"><span class='md:hidden'>i.e.</span><span class='hidden sm:block'>Most recently:</span> Tripwell, Flaunter & Vero.</p>
+                  <p className="mb-4">I'm a customer centric, <br className="md:hidden"/> full-stack engineer<br/>who works with early stage startups<br/>to ship mission critical projects.</p>
+                  <p className="mb-6"><span className='md:hidden'>i.e.</span><span className='hidden sm:block'>Most recently:</span> Tripwell, Flaunter & Vero.</p>
                   <p className="mb-4">
                     I founded Elto which was <a rel="nofollow" href="https://techcrunch.com/2015/04/10/godaddy-acquires-elto-marketplace-for-web-pros/">acquired by Godaddy</a>.</p>
                   <p className="mt-10"> Contact me via <a href="mailto:pj.murray.nz@gmail.com">email.</a></p>
                 </div>
               </div>
-              <div class='md:mr-48 flexShrink: 0:mr-0 opacity-20 hidden md:block'>
-                <img src={'/face-wide.png'} alt="PJ Murray" class='h-full w-auto max-w-none'  />
+              <div className='md:mr-48 flexShrink: 0:mr-0 opacity-20 hidden md:block'>
+                <img src={'/face-wide.png'} alt="PJ Murray" className='h-full w-auto max-w-none'  />
               </div>
             </div>
-            <div class='text-center mt-20'>
-              <p class='text-sm'><a href="https://www.linkedin.com/in/pjmurraynz/">LinkedIn</a> | <a rel="nofollow" href="https://www.instagram.com/pjmurraynz/">Instagram</a></p>
+            <div className='text-center mt-20'>
+              <p className='text-sm'><a href="https://www.linkedin.com/in/pjmurraynz/">LinkedIn</a> | <a rel="nofollow" href="https://www.instagram.com/pjmurraynz/">Instagram</a></p>
              </div>
             </div>
         </div>
