@@ -45,7 +45,7 @@ const IndexPage = () => {
                   <p className="mb-4">I'm a customer centric, <br class="md:hidden"/> full-stack engineer<br/>who works with early stage startups<br/>to ship mission critical projects.</p>
                   <p className="mb-6"><span class='md:hidden'>i.e.</span><span class='hidden sm:block'>Most recently:</span> Tripwell, Flaunter & Vero.</p>
                   <p className="mb-4">
-                    In 2015 my company Elto was  <a rel="nofollow" href="https://techcrunch.com/2015/04/10/godaddy-acquires-elto-marketplace-for-web-pros/">acquired by Godaddy</a>.</p>
+                    I founded Elto which was <a rel="nofollow" href="https://techcrunch.com/2015/04/10/godaddy-acquires-elto-marketplace-for-web-pros/">acquired by Godaddy</a>.</p>
                   <p className="mt-10"> Contact me via <a href="mailto:pj.murray.nz@gmail.com">email.</a></p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div class='text-center mt-20'>
-              <p class='text-sm'><a>LinkedIn</a> | <a>Instagram</a> | <a>Facebook</a> </p>
+              <p class='text-sm'><a href="https://www.linkedin.com/in/pjmurraynz/">LinkedIn</a> | <a rel="nofollow" href="https://www.instagram.com/pjmurraynz/">Instagram</a></p>
              </div>
             </div>
         </div>
