@@ -44,8 +44,8 @@ const IndexPage = () => {
                 <h1 className="mb-8"><span role="img">👋</span> Hey there, <br className="md:hidden"/>it's PJ Murray.</h1>
                 <div className="leading-loose">
                   <p className="mb-4">I'm a customer centric, <br className="md:hidden"/> full-stack engineer<br/>who works with early stage startups<br/>to ship mission critical projects.</p>
-                  <p className="mb-6"><span className='md:hidden'>i.e. </span><span className='hidden sm:block'>Most recently with</span>  
-                  <OutboundLink  rel="nofollow" href="https://flaunter.com">Flaunter</OutboundLink> & <OutboundLink rel="nofollow" href="https://getvero.com">Vero</OutboundLink>.
+                  <p className="mb-6"><span className='md:hidden'>i.e. </span><span className='hidden sm:block'>Most recently with:</span>  
+                  <OutboundLink  rel="nofollow" href="https://flaunter.com" target='_blank'>Flaunter</OutboundLink> & <OutboundLink rel="nofollow" href="https://getvero.com" target='_blank'>Vero</OutboundLink>.
                   
                   </p>
                   <p className="mb-4">
