@@ -1,6 +1,7 @@
 // import React, { Fragment, useState } from "react"
 import React, { Fragment } from "react"
 import { Link } from "gatsby"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 // import Layout from "../components/layout"
 // import Header from "../components/header"
@@ -43,9 +44,12 @@ const IndexPage = () => {
                 <h1 className="mb-8"><span role="img">👋</span> Hey there, <br className="md:hidden"/>it's PJ Murray.</h1>
                 <div className="leading-loose">
                   <p className="mb-4">I'm a customer centric, <br className="md:hidden"/> full-stack engineer<br/>who works with early stage startups<br/>to ship mission critical projects.</p>
-                  <p className="mb-6"><span className='md:hidden'>i.e.</span><span className='hidden sm:block'>Most recently:</span> Tripwell, Flaunter & Vero.</p>
+                  <p className="mb-6"><span className='md:hidden'>i.e. </span><span className='hidden sm:block'>Most recently with</span>  
+                  <OutboundLink  rel="nofollow" href="https://flaunter.com">Flaunter</OutboundLink> & <OutboundLink rel="nofollow" href="https://getvero.com">Vero</OutboundLink>.
+                  
+                  </p>
                   <p className="mb-4">
-                    I founded Elto which was <a rel="nofollow" href="https://techcrunch.com/2015/04/10/godaddy-acquires-elto-marketplace-for-web-pros/">acquired by Godaddy</a>.</p>
+                    I founded Elto which was <br class="md:hidden"/><a rel="nofollow" href="https://techcrunch.com/2015/04/10/godaddy-acquires-elto-marketplace-for-web-pros/">acquired by GoDaddy</a>.</p>
                   <p className="mt-10"> Contact me via <a href="mailto:pj.murray.nz@gmail.com">email.</a></p>
                 </div>
               </div>
