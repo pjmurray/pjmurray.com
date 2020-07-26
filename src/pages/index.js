@@ -1,5 +1,4 @@
-// import React, { Fragment, useState } from "react"
-import React, { Fragment } from "react"
+import React, { Fragment, useState } from "react"
 import { Link } from "gatsby"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 
@@ -26,6 +25,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => {
   // const [scrolled, setScrolled] = useState(false)
+  const [showSubscribe, setShowSubscribe] = useState(false)
   function handleScroll () {
     // setScrolled(true)
   }
@@ -46,16 +46,18 @@ const IndexPage = () => {
                   <p className="mb-4">I'm a customer centric, <br className="md:hidden"/> full-stack engineer<br/>who works with early stage startups<br/>to ship mission critical projects.</p>
                   <p className="mb-6"><span className='md:hidden'>i.e. </span><span className='hidden sm:block'>Most recently with:</span>  
                   <OutboundLink  rel="nofollow" href="https://flaunter.com" target='_blank'>Flaunter</OutboundLink> & <OutboundLink rel="nofollow" href="https://getvero.com" target='_blank'>Vero</OutboundLink>.
-                  
                   </p>
                   <p className="mb-4">
                     I founded Elto which was <br class="md:hidden"/><a rel="nofollow" href="https://techcrunch.com/2015/04/10/godaddy-acquires-elto-marketplace-for-web-pros/">acquired by GoDaddy</a>.</p>
-                  <p className="mt-10"> Contact me via <a href="mailto:pj.murray.nz@gmail.com">email.</a></p>
+                  <p className="mt-10"> Contact me via <a href="mailto:pj.murray.nz@gmail.com">email </a><br/>or <a href="#" onClick={() => {setShowSubscribe(true)}}>join to my newsletter</a>.</p>
                 </div>
               </div>
               <div className='md:mr-48 flexShrink: 0:mr-0 opacity-20 hidden md:block'>
                 <img src={'/face-wide.png'} alt="PJ Murray" className='h-full w-auto max-w-none'  />
               </div>
+            </div>
+            <div class={showSubscribe ? 'absolute inset-0 mt-32' : 'hidden'}>
+              <iframe src="https://pjmurray.substack.com/embed" height="320" className="border w-full md:w-1/2 mx-auto" style={{background:'white'}} frameborder="0" scrolling="no"></iframe>
             </div>
             <div className='text-center mt-20'>
               <p className='text-sm'><a href="https://www.linkedin.com/in/pjmurraynz/">LinkedIn</a> | <a rel="nofollow" href="https://www.instagram.com/pjmurraynz/">Instagram</a></p>
